@@ -28,7 +28,8 @@ By the end of the course, students should be able to:
 3. Fit models to data and evaluate parameter uncertainties using covariance methods, resampling, likelihoods, and goodness-of-fit diagnostics.
 4. Implement and validate numerical methods for differential equations, linear algebra, eigensystems, and spectral problems.
 5. Apply Monte Carlo and stochastic methods to simulation, uncertainty propagation, and inference.
-6. Communicate computational results through readable code, documentation, figures, short reports, and oral presentations.
+6. Use the [W&M HPC cluster](./resources/wmhpc.md) for larger-scale calculations, including batch processing and parallel job submission.
+7. Communicate computational results through readable code, documentation, figures, short reports, and oral presentations.
 
 ## Course Units
 

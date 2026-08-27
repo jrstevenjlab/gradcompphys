@@ -15,6 +15,7 @@ The course is organized around computational methods rather than physics subfiel
 - Fit physical models to data and interpret uncertainties, residuals, likelihoods, and model comparisons responsibly.
 - Implement and validate numerical methods for differential equations, linear algebra problems, eigensystems, and spectral methods.
 - Use Monte Carlo and stochastic methods for simulation, uncertainty propagation, and inference.
+- Use the [W&M HPC cluster](./resources/wmhpc.md) for larger-scale calculations, including batch processing and parallel job submission.
 - Communicate computational work through readable code, documentation, figures, reports, and presentations.
 
 ## Course Structure
