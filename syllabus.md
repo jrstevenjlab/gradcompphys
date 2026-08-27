@@ -1,7 +1,5 @@
 # PHYS690: Computational Methods for Physics Research
 
-**Graduate Project-Based Course**  
-**Physics Department, William & Mary**  
 **Instructor:** Justin Stevens  
 ***Office:*** Small Hall 343C  
 ***Email:*** jrstevens01@wm.edu  
