@@ -1,15 +1,14 @@
 # PHYS690: Computational Methods for Physics Research
 
 **Graduate Project-Based Course**  
-**Physics Department, William & Mary**
+**Physics Department, William & Mary**  
+**Instructor:** Justin Stevens  
+***Office:*** Small Hall 343C  
+***Email:*** jrstevens01@wm.edu  
 
-**Instructor:** Justin Stevens
-***Office:*** Small Hall 343C
-***Email:*** jrstevens01@wm.edu
-
+**Fall 2026:** August 27-December 4, with capstone work and presentations during finals week, December 7-16.  
 **Meeting time:** Tuesdays and Thursdays, 2:00-3:20 p.m.  
 **Office Hours:** TBD and by appointment (in-person or Zoom).  I am often at Jefferson Lab for research, so not always available in-person at W&M.
-**Fall 2026:** August 27-December 4, with capstone work and presentations during finals week, December 7-16.
 
 Related pages: [Course Home](./README.md) | [Schedule](./schedule.md) | [Resources](./resources/README.md) | [Assignments](./assignments/README.md)
 
@@ -17,7 +16,7 @@ Related pages: [Course Home](./README.md) | [Schedule](./schedule.md) | [Resourc
 
 This graduate course develops practical computational skills for physics research. Students will design, implement, validate, and communicate computational workflows that connect physical models, data, and numerical methods. The course emphasizes reproducibility, numerical reliability, uncertainty quantification, and clear scientific communication.
 
-The organization of the course is method-focused rather than subfield-focused. Students will work through projects in data analysis, model fitting, numerical simulation, stochastic methods, and professional research-computing practice. By the end of the semester, students should be able to take a physics problem from raw data or mathematical model to tested code, quantitative results, uncertainty estimates, and publication-quality figures.
+The organization of the course is method-focused rather than subfield-focused. Students will work through projects in data analysis, model fitting, numerical simulation and stochastic methods. By the end of the semester, students should be able to take a physics problem from raw data or mathematical model to tested code, quantitative results, uncertainty estimates, and publication-quality figures.
 
 ## Learning Goals
 
@@ -35,29 +34,29 @@ By the end of the course, students should be able to:
 
 ### Unit 1: Research Computing Foundations
 
-Students build the practical foundation for research computing: Unix/Linux command-line work, Python environments, Jupyter versus scripts, Git workflows, project organization, documentation, and reproducibility.
+Practical foundation for research computing: Unix/Linux command-line work, Python environments, Jupyter versus scripts, Git workflows, project organization, documentation, and reproducibility.
 
 ### Unit 2: Data Analysis, Model Fitting, and Uncertainty
 
-Students work with scientific datasets using visualization, residual analysis, nonlinear fitting, covariance matrices, bootstrap and jackknife methods, likelihood functions, and model comparison.
+Work with scientific datasets using visualization, residual analysis, nonlinear fitting, covariance matrices, bootstrap and jackknife methods, likelihood functions, and model comparison.
 
 ### Unit 3: Numerical Methods for Physical Systems
 
-Students implement and test numerical methods for ordinary and partial differential equations, boundary-value problems, finite-difference methods, eigensystems, FFT-based analysis, and convergence and stability studies.
+Implement and test numerical methods for ordinary and partial differential equations, boundary-value problems, finite-difference methods, eigensystems, FFT-based analysis, and convergence and stability studies.
 
 ### Unit 4: Monte Carlo, Stochastic Methods, and Inference
 
-Students use random sampling, Monte Carlo integration, stochastic simulation, uncertainty propagation, Markov-chain Monte Carlo, and Bayesian summaries to study physical systems and quantify uncertainty.
+Random sampling, Monte Carlo integration, stochastic simulation, uncertainty propagation, Markov-chain Monte Carlo, and Bayesian summaries to study physical systems and quantify uncertainty.
 
 ### Unit 5: Capstone Project
 
-Each student or small team completes a research-style computational project. The capstone requires a clear physics question, a documented computational method, validation tests, uncertainty analysis, reproducibility instructions, and a final presentation.
+Each student or small team completes a computational research project in their field of interest. The capstone requires a clear physics question, a documented computational method, validation tests, uncertainty analysis, reproducibility instructions, and a final presentation.
 
 ## Assessment
 
 | Component | Weight |
 | --- | ---: |
-| Short computational assignments | 30% |
+| Unit assignments | 30% |
 | Unit projects | 30% |
 | Final capstone project | 30% |
 | Participation and code review | 10% |
@@ -68,7 +67,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises.
 
 ## Course Schedule
 
-The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.  See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on the following dates:
+The semester is organized into five three-week units.  Unit 5 is reserved for the capstone, which continues through finals week.  See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on the following dates:
 - GlueX Collaboration Meeting, Thu, Oct. 1
 - Fall Break, Thu, Oct. 8
 - Election Day, Thu, Nov. 3
