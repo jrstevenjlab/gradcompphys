@@ -7,7 +7,7 @@
 
 | Weeks | Dates | Focus | Planned deliverables |
 | --- | --- | --- | --- |
-| 1-3 | Aug. 25-Sep. 10 | Unit 1: Research Computing Foundations | Notebook Assignment 1; Unit Project 1 |
+| 1-3 | Aug. 27-Sep. 10 | Unit 1: Research Computing Foundations | Notebook Assignment 1; Unit Project 1 |
 | 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Notebook Assignment 2; Unit Project 2 |
 | 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit Project 3 |
 | 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit Project 4 |
