@@ -22,7 +22,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Thu, Aug. 27 | Course orientation; computational research workflows; Unix/Linux and the shell | Introduce Assignment 1 |
+| Thu, Aug. 27 | [Course orientation and computational research workflows](./lectures/lecture01_8_27_26_workflows.ipynb) |  |
 | Tue, Sep. 1 | Command line: Files, paths, etc. and Git basics: commits, branches, etc. | Assignment 1: shell and project-organization exercises |
 | Thu, Sep. 3 | Python environments; Jupyter notebooks versus scripts; NumPy arrays, SciPy routines, and basic computation | Assignment 1: Python, NumPy, and SciPy exercises |
 | Tue, Sep. 8 | Matplotlib and pandas; readable notebooks; metadata, documentation, and reproducible outputs | Assignment 1: Data and plotting |
