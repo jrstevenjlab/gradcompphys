@@ -21,7 +21,8 @@ This unit focuses on the habits and tools that make computational research relia
 - [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/)  
   Useful for tabular data cleaning, indexing, grouping, reshaping, and data import/export.
 
-## Recommended
+<!-- 
+## Optional textbooks
 
 - [Effective Computation in Physics](https://www.oreilly.com/library/view/effective-computation-in/9781491901564/)  
   Strong coverage of command-line work, automation, testing, version control, and project organization for physical science workflows.
@@ -29,6 +30,7 @@ This unit focuses on the habits and tools that make computational research relia
   A practical reference for NumPy, `pandas`, Matplotlib, and notebook-based analysis.
 - [pandas Getting Started](https://pandas.pydata.org/getting_started.html)  
   A good quick path into data structures, indexing, and basic tabular workflows.
+-->
 
 ## Optional Deeper Reading
 
