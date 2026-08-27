@@ -87,6 +87,14 @@ The course will primarily use open-source tools:
 
 Students may use other languages or tools with instructor approval, provided the workflow remains reproducible, well documented, and appropriate for the project goals.
 
+## Generative AI Use
+
+Generative AI tools are welcome in this course when they support learning, debugging, and understanding. Appropriate uses include asking for explanations of unfamiliar code, interpreting error messages, brainstorming debugging strategies, clarifying Python or Unix syntax, and discussing alternative ways to organize or test your work.
+
+Generative AI should not be used to complete assignments or projects on your behalf. Do not paste a full assignment or project prompt into an AI system and ask it to produce a standalone solution, notebook, report, or repository. The scientific choices, code structure, interpretation, validation, and written explanations you submit must be your own work and must be work you can explain.
+
+If you use AI in a substantial way while completing an assignment or project, include a brief note describing how it helped. For example, it is fine to say that AI helped you understand an error message, debug a plotting problem, or compare possible implementations. It is not acceptable to submit AI-generated work that you do not understand or that bypasses the intended learning goals of the task.
+
 ## Course Philosophy
 
 Computation is now part of everyday research practice in physics. This course is not only about writing code or applying isolated algorithms. It is about developing judgment: choosing an appropriate method, testing an implementation, estimating uncertainty, recognizing failure modes, and communicating results clearly enough that another researcher can understand and reuse the work.
