@@ -115,8 +115,8 @@ The capstone uses the [project template](./projects/project-template.md) and [pr
 
 Each three-week unit follows the same rhythm:
 
-1. **Week 1:** Introduce the method, release the notebook assignment on Tuesday, and show how the method appears in a research workflow.
+1. **Week 1:** Introduce the method and show how the method appears in a research workflow.
 2. **Week 2:** Work through the assignment, discuss failure modes, and submit the notebook assignment on Thursday.
-3. **Week 3:** Submit the project checkpoint on Tuesday, then use class time for project studios, code review, validation, and concise demonstrations before the Thursday project submission.
+3. **Week 3:** Submit the project checkpoint on Tuesday, then use class time for project work, code review, validation, and concise demonstrations before the Thursday project submission.
 
 The notebook assignments are intentionally scaffolded. The projects ask students to make more of the scientific and computational decisions themselves, while still requiring the same standards of validation, uncertainty analysis, documentation, and reproducibility.
