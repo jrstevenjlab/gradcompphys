@@ -102,6 +102,6 @@ It is the policy of William & Mary to accommodate students with disabilities and
 ## Mental and Physical Well-Being: 
 
 William & Mary recognizes that students juggle different responsibilities and can face challenges that make learning difficult.  There are many resources available at W&M to help students navigate emotional/psychological, physical/medical, material/accessibility concerns, including:  
-•	The [W&M Counseling Center](https://www.wm.edu/offices/wellness/counselingcenter/students/) at (757) 221-3620.  
-•	The [W&M Health Center](https://www.wm.edu/offices/wellness/healthcenter/) at (757) 221-4386. 
-•	A list of other wellness resources available to students can be found at: https://www.wm.edu/offices/wellness/resources/
+* The [W&M Counseling Center](https://www.wm.edu/offices/wellness/counselingcenter/students/) at (757) 221-3620.  
+* The [W&M Health Center](https://www.wm.edu/offices/wellness/healthcenter/) at (757) 221-4386. 
+* A list of other wellness resources available to students can be found at: https://www.wm.edu/offices/wellness/resources/
