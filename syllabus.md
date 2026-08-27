@@ -1,8 +1,8 @@
 # PHYS690: Computational Methods for Physics Research
 
 **Instructor:** Justin Stevens  
-***Office:*** Small Hall 343C  
-***Email:*** jrstevens01@wm.edu  
+**Office:** Small Hall 343C  
+**Email:** jrstevens01@wm.edu  
 
 **Fall 2026:** August 27-December 4, with capstone work and presentations during finals week, December 7-16.  
 **Meeting time:** Tuesdays and Thursdays, 2:00-3:20 p.m.  
