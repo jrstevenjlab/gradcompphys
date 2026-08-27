@@ -12,7 +12,7 @@
 | 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit 3 Project |
 | 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit 4 Project |
 | 13-15 | Nov. 17-Dec. 3 | Unit 5: Capstone Project | Capstone proposal, progress review, and presentation rehearsal |
-| Finals period | Dec. 7-16 | Capstone completion | Final repository/report and presentation |
+| Finals period | Dec. 7-10 | Capstone completion | Final repository/report and presentation |
 
 The four unit assignments are primarily Jupyter notebooks with guided exercises and short written interpretations. The four unit projects are more open-ended and will be small enough to complete in one unit while giving students practice with a complete computational workflow.
 

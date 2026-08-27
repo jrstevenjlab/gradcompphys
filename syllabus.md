@@ -3,7 +3,12 @@
 **Graduate Project-Based Course**  
 **Physics Department, William & Mary**
 
+**Instructor:** Justin Stevens
+***Office:*** Small Hall 343C
+***Email:*** jrstevens01@wm.edu
+
 **Meeting time:** Tuesdays and Thursdays, 2:00-3:20 p.m.  
+**Office Hours:** TBD and by appointment (in-person or Zoom).  I am often at Jefferson Lab for research, so not always available in-person at W&M.
 **Fall 2026:** August 27-December 4, with capstone work and presentations during finals week, December 7-16.
 
 Related pages: [Course Home](./README.md) | [Schedule](./schedule.md) | [Resources](./resources/README.md) | [Assignments](./assignments/README.md)
@@ -63,10 +68,12 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises.
 ## Course Schedule
 
 The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.  See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on the following dates:
-- GlueX Collaboration Meeting, Thu, Oct 1
-- Fall Break, Thu, Oct 8
-- Election Day, Thu, Nov 3
-- Thanksgiving, Thu, Nov 26
+- GlueX Collaboration Meeting, Thu, Oct. 1
+- Fall Break, Thu, Oct. 8
+- Election Day, Thu, Nov. 3
+- Thanksgiving, Thu, Nov. 26
+
+The final capstone projects will be presented on Thu, Dec. 10 from 2-5 pm during the final exam time slot.
 
 ## Software and Tools
 
@@ -87,3 +94,14 @@ Students may use other languages or tools with instructor approval, provided the
 Computation is now part of everyday research practice in physics. This course is not only about writing code or applying isolated algorithms. It is about developing judgment: choosing an appropriate method, testing an implementation, estimating uncertainty, recognizing failure modes, and communicating results clearly enough that another researcher can understand and reuse the work.
 
 Students should leave the course with a portfolio of small but complete computational projects and one substantial capstone project that demonstrates an end-to-end research workflow.
+
+## Accommodations
+
+It is the policy of William & Mary to accommodate students with disabilities and qualifying diagnosed conditions in accordance with federal and state laws. Any student who feels they may need an accommodation based on the impact of a learning, psychiatric, physical, or chronic health diagnosis should contact the Student Accessibility Services staff at 757-221-2509 or at sas@wm.edu. SAS staff will work with you to determine if accommodations are warranted, and if so, to help you obtain an official letter of accommodation. For more information, please see [Student Accessibility Services](https://www.wm.edu/offices/studentsuccess/studentaccessibilityservices/).
+
+## Mental and Physical Well-Being: 
+
+William & Mary recognizes that students juggle different responsibilities and can face challenges that make learning difficult.  There are many resources available at W&M to help students navigate emotional/psychological, physical/medical, material/accessibility concerns, including:  
+•	The [W&M Counseling Center](https://www.wm.edu/offices/wellness/counselingcenter/students/) at (757) 221-3620.  
+•	The [W&M Health Center](https://www.wm.edu/offices/wellness/healthcenter/) at (757) 221-4386. 
+•	A list of other wellness resources available to students can be found at: https://www.wm.edu/offices/wellness/resources/
