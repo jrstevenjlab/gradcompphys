@@ -58,20 +58,15 @@ Each student or small team completes a research-style computational project. The
 
 Project grades emphasize both scientific correctness and computational practice. Strong work should demonstrate clear code, reproducibility, validation, uncertainty analysis, thoughtful interpretation, and effective figures.
 
-The four unit assignments are primarily Jupyter notebooks with guided exercises. There will also includes one open-ended project selected from the [project menu](./projects/project-menu.md). The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. 
+The four unit assignments are primarily Jupyter notebooks with guided exercises. There will also be open-ended projects to complete for Units 2-5. The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. 
+
 ## Course Schedule
 
-The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.
-
-| Unit | Dates | Main focus |
-| --- | --- | --- |
-| 1. Research Computing Foundations | Aug. 27-Sep. 10 | Reproducible workflows, Unix/Linux, Git, Python, and project organization |
-| 2. Data Analysis, Model Fitting, and Uncertainty | Sep. 15-Oct. 1 | Data workflows, fitting, residuals, covariance, resampling, and model comparison |
-| 3. Numerical Methods for Physical Systems | Oct. 6-22 | ODEs, PDEs, eigensystems, FFTs, convergence, stability, and discretization error |
-| 4. Monte Carlo, Stochastic Methods, and Inference | Oct. 27-Nov. 12 | Sampling, stochastic simulation, uncertainty propagation, MCMC, and Bayesian inference |
-| 5. Capstone Project | Nov. 17-Dec. 16 | Proposal, implementation, validation, communication, and final presentation |
-
-See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on Thanksgiving, Thursday, November 26.
+The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.  See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on the following dates:
+- GlueX Collaboration Meeting, Thu, Oct 1
+- Fall Break, Thu, Oct 8
+- Election Day, Thu, Nov 3
+- Thanksgiving, Thu, Nov 26
 
 ## Software and Tools
 
