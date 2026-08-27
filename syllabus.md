@@ -58,8 +58,7 @@ Each student or small team completes a research-style computational project. The
 
 Project grades emphasize both scientific correctness and computational practice. Strong work should demonstrate clear code, reproducibility, validation, uncertainty analysis, thoughtful interpretation, and effective figures.
 
-The four unit assignments are primarily Jupyter notebooks with guided exercises. Each unit also includes one open-ended project selected from the [project menu](./projects/project-menu.md). The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. The capstone project uses the [project template](./projects/project-template.md) and [project rubric](./projects/rubrics.md).
-
+The four unit assignments are primarily Jupyter notebooks with guided exercises. Each unit also includes one open-ended project selected from the [project menu](./projects/project-menu.md). The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. 
 ## Course Schedule
 
 The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.

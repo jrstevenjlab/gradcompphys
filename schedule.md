@@ -14,7 +14,7 @@
 | 13-15 | Nov. 17-Dec. 3 | Unit 5: Capstone Project | Capstone proposal, progress review, and presentation rehearsal |
 | Finals period | Dec. 7-16 | Capstone completion | Final repository/report and presentation |
 
-The four unit assignments are primarily Jupyter notebooks with guided exercises and short written interpretations. The four unit projects are more open-ended and use the [project menu](./projects/project-menu.md). Each project should be small enough to complete in one unit while giving students practice with a complete computational workflow.
+The four unit assignments are primarily Jupyter notebooks with guided exercises and short written interpretations. The four unit projects are more open-ended and will be small enough to complete in one unit while giving students practice with a complete computational workflow.
 
 ## Unit 1: Research Computing Foundations
 
@@ -32,6 +32,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
 
 **Project 1 plan:** A compact reproducible research workflow. Students may select a small analysis, a workflow reconstruction, or a research-code refactoring problem from the menu. The submission should include a working repository, a notebook or script, a short README, and a brief validation or sanity check.
+
+<!-- 
 
 ## Unit 2: Data Analysis, Model Fitting, and Uncertainty
 
@@ -105,6 +107,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 - **Wed, Dec. 16:** Final revisions and reflection due, if needed after presentation feedback.
 
 The capstone uses the [project template](./projects/project-template.md) and [project rubric](./projects/rubrics.md). The final submission should include the physics question, computational method, data or model description, validation strategy, uncertainty analysis, figures, reproducibility instructions, results, and reflection.
+
+-->
 
 ## Assignment and Project Rhythm
 
