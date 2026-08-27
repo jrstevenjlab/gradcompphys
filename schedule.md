@@ -26,7 +26,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Sep. 1 | Command line: Files, paths, etc. and Git basics: commits, branches, etc. | Assignment 1: shell and project-organization exercises |
 | Thu, Sep. 3 | Python environments; Jupyter notebooks versus scripts; NumPy arrays, SciPy routines, and basic computation | Assignment 1: Python, NumPy, and SciPy exercises |
 | Tue, Sep. 8 | Matplotlib and pandas; readable notebooks; metadata, documentation, and reproducible outputs | Assignment 1: GitHub |
-| Thu, Sep. 10 | Introduction to Unit 2 | Assignment 1 due |
+| Thu, Sep. 10 | Introduction and Preparation for Unit 2 | Assignment 1 due |
 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
 
@@ -58,7 +58,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
 | Tue, Oct. 6 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduce Assignment 3 and numerical project options |
-| Thu, Oct. 8 | Stability, step-size control, conserved quantities, and particle/trajectory integration | Assignment 3: ODE and stability exercises |
+| Thu, Oct. 8 (Fall Break) | Stability, step-size control, conserved quantities, and particle/trajectory integration | Assignment 3: ODE and stability exercises |
 | Tue, Oct. 13 | Finite differences for boundary-value problems and PDEs; grids and boundary conditions | Assignment 3 workshop |
 | Thu, Oct. 15 | Linear algebra and numerical eigensystems; conditioning and physical interpretation | Assignment 3 due; project planning |
 | Tue, Oct. 20 | FFTs and spectral analysis; resolution, aliasing, and discretization choices | Project 3 proposal/checkpoint due; Project 3 studio |

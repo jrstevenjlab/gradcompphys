@@ -51,14 +51,14 @@ Each student or small team completes a research-style computational project. The
 
 | Component | Weight |
 | --- | ---: |
-| Short computational assignments | 25% |
-| Unit projects | 35% |
+| Short computational assignments | 30% |
+| Unit projects | 30% |
+| Final capstone project | 30% |
 | Participation and code review | 10% |
-| Final capstone project | 25% |
 
 Project grades emphasize both scientific correctness and computational practice. Strong work should demonstrate clear code, reproducibility, validation, uncertainty analysis, thoughtful interpretation, and effective figures.
 
-The four unit assignments are primarily Jupyter notebooks with guided exercises. Each unit also includes one open-ended project selected from the [project menu](./projects/project-menu.md). The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. 
+The four unit assignments are primarily Jupyter notebooks with guided exercises. There will also includes one open-ended project selected from the [project menu](./projects/project-menu.md). The [course schedule](./schedule.md) lists release dates, workshops, checkpoints, and due dates. 
 ## Course Schedule
 
 The semester is organized into five three-week units. Units 1-4 each pair a scaffolded notebook assignment with an open-ended computational project. Unit 5 is reserved for the capstone, which continues through finals week.

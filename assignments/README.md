@@ -1,12 +1,10 @@
 # Assignments
 
-Assignments will be posted here as the course develops. The plan below defines the intended sequence without yet providing the full student prompts.
-
 ## Notebook Assignment Plan
 
 Each assignment will be distributed as a Jupyter notebook with a small set of starter files or data. Students will complete code cells, answer short interpretation questions, produce figures, and finish with a brief reproducibility note. Notebooks should be committed to a Git repository and run from top to bottom before submission.
 
-For Units 1-4, notebook assignments are typically released on the first Tuesday of the unit and due on the second Thursday, leaving the final week for project checkpoints and submission.
+For Units 2-4, notebook assignments are typically released on the first Tuesday of the unit and due on the second Thursday, leaving the final week for project checkpoints and submission.
 
 | Assignment | Release | Due | Preparation for the unit project |
 | --- | --- | --- | --- |
