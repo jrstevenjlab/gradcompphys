@@ -1,5 +1,10 @@
 # Course Resources
 
+General resources for the course.
+
+- [Visual Studio Code (VS Code)](./vscode.md)
+- [William & Mary HPC Cluster](./wmhpc.md)
+
 Unit-by-unit resource pages for the course.
 
 - [Unit 1: Research Computing Foundations](./unit-1-research-computing.md)
