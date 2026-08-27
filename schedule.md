@@ -7,10 +7,10 @@
 
 | Weeks | Dates | Focus | Planned deliverables |
 | --- | --- | --- | --- |
-| 1-3 | Aug. 27-Sep. 10 | Unit 1: Research Computing Foundations | Notebook Assignment 1; Unit Project 1 |
-| 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Notebook Assignment 2; Unit Project 2 |
-| 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit Project 3 |
-| 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit Project 4 |
+| 1-3 | Aug. 27-Sep. 10 | Unit 1: Research Computing Foundations | Assignment 1 |
+| 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Notebook Assignment 2; Unit 2 Project |
+| 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit 3 Project |
+| 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit 4 Project |
 | 13-15 | Nov. 17-Dec. 3 | Unit 5: Capstone Project | Capstone proposal, progress review, and presentation rehearsal |
 | Finals period | Dec. 7-16 | Capstone completion | Final repository/report and presentation |
 
@@ -22,12 +22,11 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Aug. 25 | Course orientation; computational research workflows; Unix/Linux and the shell | Introduce Assignment 1 and the project menu |
-| Thu, Aug. 27 | Files, paths, pipes, permissions, environment variables, and command-line inspection | Assignment 1: shell and project-organization exercises |
-| Tue, Sep. 1 | Python environments; Jupyter notebooks versus scripts; NumPy arrays, SciPy routines, and basic computation | Assignment 1: Python, NumPy, and SciPy exercises |
-| Thu, Sep. 3 | Git basics; commits, branches, remotes, and useful repository history | Assignment 1 due; project idea selection |
-| Tue, Sep. 8 | Matplotlib and pandas; readable notebooks; metadata, documentation, and reproducible outputs | Project 1 proposal/checkpoint; project studio |
-| Thu, Sep. 10 | Reproducibility review; code organization; peer code review and project demonstrations | Project 1 repository due |
+| Thu, Aug. 27 | Course orientation; computational research workflows; Unix/Linux and the shell | Introduce Assignment 1 |
+| Tue, Sep. 1 | Files, paths, pipes, permissions, environment variables, and command-line inspection | Assignment 1: shell and project-organization exercises |
+| Thu, Sep. 3 | Python environments; Jupyter notebooks versus scripts; NumPy arrays, SciPy routines, and basic computation | Assignment 1: Python, NumPy, and SciPy exercises |
+| Tue, Sep. 8 | Git basics; commits, branches, remotes, and useful repository history | Assignment 1 due |
+| Thu, Sep. 10 | Matplotlib and pandas; readable notebooks; metadata, documentation, and reproducible outputs | Assignment 1 due |
 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
 

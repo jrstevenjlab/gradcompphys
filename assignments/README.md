@@ -10,7 +10,7 @@ For Units 1-4, notebook assignments are typically released on the first Tuesday 
 
 | Assignment | Release | Due | Preparation for the unit project |
 | --- | --- | --- | --- |
-| Assignment 1: Reproducible Research Workflow | Thu, Aug. 25 | Tue, Sep. 8 | Establishes shell, Git, Python, data-loading, plotting, and documentation habits. |
+| Assignment 1: Reproducible Research Workflow | Thu, Aug. 27 | Thu, Sep. 10 | Establishes shell, Git, Python, data-loading, plotting, and documentation habits. |
 | Assignment 2: Fitting and Uncertainty | Tue, Sep. 15 | Thu, Sep. 24 | Provides practice with model fitting, residuals, covariance, and resampling. |
 | Assignment 3: Numerical Methods and Error | Tue, Oct. 6 | Thu, Oct. 15 | Provides practice with numerical integration, stability, boundary conditions, eigensystems, FFTs, and convergence. |
 | Assignment 4: Sampling and Inference | Tue, Oct. 27 | Thu, Nov. 5 | Provides practice with Monte Carlo estimates, uncertainty propagation, MCMC, posterior visualization, and diagnostics. |
