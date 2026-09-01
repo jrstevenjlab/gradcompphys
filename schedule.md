@@ -24,8 +24,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | --- | --- | --- |
 | Thu, Aug. 27 | [Course orientation and computational research workflows](./lectures/lecture01_8_27_26_workflows.ipynb) |  |
 | Tue, Sep. 1 | [Command line, Python environments, notebooks/scripts, and Git basics](./lectures/lecture02_9_1_26_shell_python_git.ipynb) | Assignment 1: shell, Python, project-organization exercises |
-| Thu, Sep. 3 | NumPy arrays, SciPy routines, and basic computation | Assignment 1: NumPy, and SciPy exercises |
-| Tue, Sep. 8 | Matplotlib and pandas; readable notebooks; metadata, documentation, and reproducible outputs | Assignment 1: Data and plotting |
+| Thu, Sep. 3 | NumPy arrays, SciPy routines, Matplotlib and pandas | Assignment 1: NumPy, SciPy, pandas and plotting exercises |
+| Tue, Sep. 8 | More applications and examples of research computing | Assignment 1: Applications |
 | Thu, Sep. 10 | Introduction and Preparation for Unit 2 | Assignment 1 due |
 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
