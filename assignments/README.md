@@ -1,41 +1,97 @@
 # Assignments
 
-## Notebook Assignment Plan
+Assignments are distributed as GitHub template repositories in the course organization:
 
-Each assignment will be distributed as a Jupyter notebook with a small set of starter files or data. Students will complete code cells, answer short interpretation questions, produce figures, and finish with a brief reproducibility note. Notebooks should be committed to a Git repository and run from top to bottom before submission.
+https://github.com/WM-PHYS690-Fall2026
 
-For Units 2-4, notebook assignments are typically released on the first Tuesday of the unit and due on the second Thursday, leaving the final week for project checkpoints and submission.
+For each assignment, you will create your own private repository from the template, clone it to your laptop, complete the work locally in VS Code, push your commits back to GitHub, and submit the private repository or pull request link for grading and feedback.
 
-| Assignment | Release | Due | Preparation for the unit project |
-| --- | --- | --- | --- |
-| Assignment 1: Reproducible Research Workflow | Thu, Aug. 27 | Thu, Sep. 10 | Establishes shell, Git, Python, data-loading, plotting, and documentation habits. |
-| Assignment 2: Fitting and Uncertainty | Tue, Sep. 15 | Thu, Sep. 24 | Provides practice with model fitting, residuals, covariance, and resampling. |
-| Assignment 3: Numerical Methods and Error | Tue, Oct. 6 | Thu, Oct. 15 | Provides practice with numerical integration, stability, boundary conditions, eigensystems, FFTs, and convergence. |
-| Assignment 4: Sampling and Inference | Tue, Oct. 27 | Thu, Nov. 5 | Provides practice with Monte Carlo estimates, uncertainty propagation, MCMC, posterior visualization, and diagnostics. |
+## Available Assignment Templates
+
+| Assignment | Template repository | Release | Due | Preparation for the unit project |
+| --- | --- | --- | --- | --- |
+| Assignment 1: Reproducible Neutrino Workflow | [assignment1-template](https://github.com/WM-PHYS690-Fall2026/assignment1-template) | Thu, Aug. 27 | Thu, Sep. 10 | Establishes shell, Git, Python, data-loading, plotting, and documentation habits. |
+| Assignment 2: Fitting and Uncertainty | Forthcoming | Tue, Sep. 15 | Thu, Sep. 24 | Provides practice with model fitting, residuals, covariance, and resampling. |
+| Assignment 3: Numerical Methods and Error | Forthcoming | Tue, Oct. 6 | Thu, Oct. 15 | Provides practice with numerical integration, stability, boundary conditions, eigensystems, FFTs, and convergence. |
+| Assignment 4: Sampling and Inference | Forthcoming | Tue, Oct. 27 | Thu, Nov. 5 | Provides practice with Monte Carlo estimates, uncertainty propagation, MCMC, posterior visualization, and diagnostics. |
+
+## Create Your Private Repository
+
+Start from the assignment template rather than forking this course repository.
+
+1. Open the assignment template repository on GitHub.
+2. Click `Use this template`.
+3. Choose `Create a new repository`.
+4. For `Owner`, select `WM-PHYS690-Fall2026`.
+5. Name your repository using the assignment number and your GitHub username, for example `assignment1-githubusername`.
+6. Set the repository visibility to `Private`.
+7. Do not select `Include all branches` unless instructed.
+8. Click `Create repository from template`.
+
+If you do not see `WM-PHYS690-Fall2026` as an owner option, or if you cannot create a private repository there, contact the instructor. You may need to accept the organization invitation first.
+
+Because your repository is owned by the course organization, the instructor will be able to access it for grading and feedback. Do not create the assignment repository under your personal account.
+
+GitHub reference: [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+
+## Work Locally In VS Code
+
+After creating your private repository on GitHub, clone it to your laptop and open it in VS Code.
+
+```bash
+git clone git@github.com:WM-PHYS690-Fall2026/assignment1-githubusername.git
+cd assignment1-githubusername
+code .
+```
+
+If you use HTTPS instead of SSH, copy the HTTPS clone URL from your GitHub repository and use that in the `git clone` command.
+
+Then follow the setup instructions in the assignment repository `README.md` and notebook. In general, each assignment will ask you to create or reactivate a `.venv`, install packages from `requirements.txt`, select the `.venv` notebook kernel, run the notebook, save figures, update the README, and commit your work.
+
+Related setup resource: [VS Code](../resources/vscode.md)
+
+## Commit And Submit
+
+Make commits as you work. A good assignment repository should show meaningful progress, not just one final upload.
+
+Recommended submission branch workflow:
+
+```bash
+git status
+git switch -c submission
+git add .
+git commit -m "Complete assignment 1"
+git push -u origin submission
+```
+
+If the `submission` branch already exists, use:
+
+```bash
+git switch submission
+git add .
+git commit -m "Update assignment 1 submission"
+git push
+```
+
+Open a pull request from `submission` into `main` inside your private assignment repository if requested. Submit the pull request URL or private repository URL according to the course instructions.
+
+GitHub reference: [Reviewing pull requests](https://docs.github.com/en/pull-requests/get-started/reviewing-pull-requests-quickstart)
+
+## Submission Checklist
+
+- Your assignment repository is private.
+- Your assignment repository is owned by `WM-PHYS690-Fall2026`.
+- Your repository name follows the requested pattern, such as `assignment1-githubusername`.
+- Your notebook runs from top to bottom after restarting the kernel.
+- Your input data are read from files, not typed manually into notebook cells.
+- Your final figure or result file is generated by code.
+- Your `README.md` explains how to rerun the work.
+- Your `.venv/` directory is not committed.
+- Your commits show meaningful progress.
+- Your submitted repository or pull request link is accessible to the instructor.
 
 ## Planned Assignment Structure
 
-- **Unit 1: Research Computing Foundations**  
-  Shell, Git, Python environments, project organization, NumPy, pandas, Matplotlib, and reproducibility exercises.  
-  Related resources: [Unit 1 resources](../resources/unit-1-research-computing.md)
+Assignments are designed to build toward the unit projects. Unit 1 emphasizes shell, Git, Python environments, project organization, NumPy, pandas, Matplotlib, and reproducibility. Related resources: [Unit 1 resources](../resources/unit-1-research-computing.md)
 
-<!-- 
-- **Unit 2: Data Analysis, Model Fitting, and Uncertainty**  
-  Data-cleaning, visualization, fitting, residual analysis, and uncertainty-estimation assignments.  
-  Related resources: [Unit 2 resources](../resources/unit-2-data-analysis.md)
-
-- **Unit 3: Numerical Methods for Physical Systems**  
-  Numerical ODE/PDE, linear algebra, eigensystem, FFT, and convergence-study assignments.  
-  Related resources: [Unit 3 resources](../resources/unit-3-numerical-methods.md)
-
-- **Unit 4: Monte Carlo, Stochastic Methods, and Inference**  
-  Sampling, uncertainty propagation, MCMC, and Bayesian-inference assignments.  
-  Related resources: [Unit 4 resources](../resources/unit-4-monte-carlo-inference.md)
-
-- **Unit 5: Capstone Project**  
-  Proposal, milestone check-in, final repository, short report, and presentation.
--->
-
-## Status
-
-Assignment prompts and detailed datasets are forthcoming. The planned due dates are listed above and in the [full course schedule](../schedule.md).
+For Units 2-4, notebook assignments are typically released on the first Tuesday of the unit and due on the second Thursday, leaving the final week for project checkpoints and submission. Future assignment prompts and detailed datasets are forthcoming. The planned due dates are listed above and in the [full course schedule](../schedule.md).
