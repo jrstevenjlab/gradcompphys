@@ -25,7 +25,7 @@ The W&M research computing environment gives students, faculty, and staff access
 ## Typical Workflow
 
 1. Request HPC access if you do not already have it.
-2. Log in from macOS Terminal or Windows PowerShell using `ssh`.
+2. Log in from macOS Terminal or Windows Git Bash using `ssh`.
 3. Move code or data to the cluster if needed.
 4. Prepare a batch script that tells Slurm what resources your job needs.
 5. Submit the job with `sbatch`.
@@ -38,7 +38,7 @@ The W&M research computing environment gives students, faculty, and staff access
 - According to the W&M Research Computing documentation, faculty, staff, and students with legitimate classroom or research needs can request access at no cost.
 - You should be comfortable with the Unix/Linux command line before relying on the cluster for course work.
 - On Mac, the built-in Terminal application works well for connecting.
-- On Windows, PowerShell is a good default option for connecting with `ssh`.
+- On Windows, Git Bash in the VS Code terminal is the course default for connecting with `ssh`; PowerShell also works if you already prefer it.
 
 ## Good Habits For Students
 

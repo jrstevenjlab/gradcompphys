@@ -25,8 +25,9 @@ Visual Studio Code, usually called VS Code, is a free, open-source editor for wr
 1. Download VS Code from the [official download page](https://code.visualstudio.com/Download) or the [Windows setup guide](https://code.visualstudio.com/docs/setup/windows).
 2. For most students, choose the Windows User Installer, which is the recommended setup from the VS Code documentation.
 3. Run the installer and follow the prompts.
-4. After installation, open PowerShell or Command Prompt in a project folder and try `code .` to launch that folder in VS Code.
-5. You can also open a folder from inside VS Code with `File > Open Folder...`.
+4. Install Git from the [official Git download page](https://git-scm.com/downloads) if it is not installed already. Git for Windows includes Git Bash, which gives Windows students a Unix-like terminal for course commands.
+5. In VS Code, open `Terminal > New Terminal`. If the terminal opens as PowerShell, use the terminal dropdown menu to choose `Git Bash`. You can also set `Git Bash` as the default terminal profile.
+6. Open a folder from inside VS Code with `File > Open Folder...`, or open Git Bash in a project folder and run `code .`.
 
 ## Using VS Code For Course Work
 
@@ -40,23 +41,25 @@ Visual Studio Code, usually called VS Code, is a free, open-source editor for wr
 
 For course assignments, use a separate Python virtual environment inside each project repository. This keeps the packages for one project from interfering with the packages for another project.
 
-On macOS or Git Bash, open the VS Code terminal in your project folder and run:
+Use a Bash-style terminal for course work: macOS Terminal on macOS and Git Bash inside VS Code on Windows. Most shell commands will then look the same on both systems.
+
+On macOS, open the VS Code terminal in your project folder and run:
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install numpy scipy matplotlib pandas ipykernel ipython
+python -m pip install numpy scipy matplotlib pandas ipykernel ipython
 ```
 
-The general pattern is:
+On Windows Git Bash, run:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install package1 package2 package3
+python -m venv .venv
+source .venv/Scripts/activate
+python -m pip install numpy scipy matplotlib pandas ipykernel ipython
 ```
 
-Replace `package1 package2 package3` with the needed packages for the assignment. For most course notebooks, the needed packages will include `numpy`, `scipy`, `matplotlib`, `pandas`, and `ipykernel`. Installing `ipython` is also helpful because it gives you the `ipython` command in the VS Code terminal.
+The activation path is different because Windows virtual environments store executables in `.venv/Scripts/`, while macOS stores them in `.venv/bin/`. After activation, use `python -m pip install package-name` to add whatever packages the assignment needs. For most course notebooks, the needed packages will include `numpy`, `scipy`, `matplotlib`, `pandas`, and `ipykernel`. Installing `ipython` is also helpful because it gives you the `ipython` command in the VS Code terminal.
 
 After installing packages, you can record the environment with:
 
@@ -65,14 +68,6 @@ pip freeze > requirements.txt
 ```
 
 Commit `requirements.txt` to Git, but do not commit the `.venv/` directory. Add `.venv/` to `.gitignore` for each project.
-
-On Windows PowerShell, the equivalent commands are:
-
-```powershell
-py -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install numpy scipy matplotlib pandas ipykernel ipython
-```
 
 After creating the environment, open a `.ipynb` notebook in VS Code and click `Select Kernel`. Choose the Python interpreter from the `.venv` folder in your project.
 
@@ -84,11 +79,30 @@ VS Code has built-in Git support, but it uses the Git installation already on yo
 - If Git is not installed yet, use the [official Git download page](https://git-scm.com/downloads) and then restart VS Code.
 - Once Git is installed, VS Code can detect repositories automatically when you open a folder that already contains a Git repository.
 
+## Troubleshooting Git
+
+If Git refuses to make a commit because it does not know who you are, configure your name and email once from the VS Code terminal:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+
+Use the same name and email you want associated with your course commits. To check what Git has stored, run:
+
+```bash
+git config --global --get user.name
+git config --global --get user.email
+```
+
+If `git --version` does not work, Git is not installed or VS Code has not found it yet. Install Git, restart VS Code, open a new terminal, and try `git --version` again.
+
 ## Suggested First Steps
 
 - Open the course repository in VS Code.
 - Open the terminal and run `pwd` to confirm where you are.
-- Check that Python is available with `python3 --version` on macOS or `py --version` on Windows.
+- On Windows, choose `Git Bash` as the VS Code terminal profile.
+- Check that Python is available with `python3 --version` on macOS or `python --version` on Windows Git Bash.
 - Run `git status` to see the current repository state.
 - Create and activate a project `.venv`.
 - Open a notebook and select the `.venv` kernel.
@@ -98,12 +112,13 @@ VS Code has built-in Git support, but it uses the Git installation already on yo
 
 - Install the Microsoft Python and Jupyter extensions in VS Code.
 - Open the whole project folder in VS Code, not just an individual file.
+- On Windows, install Git for Windows and use `Git Bash` in the VS Code terminal for the course examples.
 - If `python3` is not found on macOS, install Python from [python.org](https://www.python.org/downloads/) and reopen the terminal.
-- If `py` is not found on Windows, install Python from [python.org](https://www.python.org/downloads/) and make sure the Python launcher is included.
+- If `python` is not found in Windows Git Bash, install Python from [python.org](https://www.python.org/downloads/), select the option to add Python to `PATH`, and reopen VS Code.
+- If Windows Python is installed but only `py` works, create the environment with `py -m venv .venv`, then activate it in Git Bash with `source .venv/Scripts/activate`.
 - If package imports fail, activate `.venv` and run `pip install package-name` again.
 - If the notebook still cannot import an installed package, use `Select Kernel` and choose the `.venv` interpreter.
-- If PowerShell blocks `.venv\Scripts\Activate.ps1`, you can use Git Bash, Command Prompt, or install packages with `.venv\Scripts\python -m pip install package-name`.
-- To check which Python your terminal is using, run `which python` on macOS or Git Bash, or `where python` on Windows.
+- To check which Python your terminal is using, run `which python` on macOS or Git Bash.
 - To check which packages are installed in the active environment, run `pip list`.
 - To check the interactive Python shell, run `python` and then type `exit()`.
 - To check IPython, run `ipython` after installing it in the active environment.
