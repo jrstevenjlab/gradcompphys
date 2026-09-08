@@ -16,7 +16,7 @@ This unit focuses on the habits and tools that make computational research relia
   The core reference for arrays, vectorized operations, linear algebra basics, and numerical workflows.
 - [SciPy documentation](https://docs.scipy.org/doc/scipy/)  
   A central reference for optimization, integration, interpolation, statistics, and scientific utilities.
-- [Matplotlib documentation](https://matplotlib.org/stable/)  
+- [Matplotlib documentation](https://matplotlib.org/stable/) and plotting [cheatsheets](https://matplotlib.org/cheatsheets/)
   The main resource for plotting, figure customization, and publication-quality graphics.
 - [pandas documentation](https://pandas.pydata.org/pandas-docs/stable/)  
   Useful for tabular data cleaning, indexing, grouping, reshaping, and data import/export.
