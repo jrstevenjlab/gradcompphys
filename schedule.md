@@ -26,7 +26,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Sep. 1 | [Command line, Python environments, notebooks/scripts, and Git basics](./lectures/lecture02_9_1_26_shell_python_git.ipynb) | Assignment 1: shell, Python, project-organization exercises |
 | Thu, Sep. 3 | [NumPy arrays, Matplotlib, and pandas](./lectures/lecture03_9_3_26_numpy_scipy_matplotlib_pandas.ipynb) | Assignment 1: NumPy, pandas, and plotting exercises |
 | Tue, Sep. 8 | [SciPy fitting: measurement uncertainty, residuals, covariance, and least squares fitting](./lectures/lecture04_9_8_26_scipy_fitting_uncertainty.ipynb) | Assignment 1: SciPy exercises | 
-| Thu, Sep. 10 | TBD | Assignment 1 due |
+| Thu, Sep. 10 | [Fitting failure modes lab: false minima, constraints, and underconstrained models](./lectures/lecture05_9_10_26_fit_failure_modes_lab.ipynb) | Assignment 1 due |
 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
 
@@ -38,11 +38,11 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Sep. 15 |  | Introduce Assignment 2 and a fitting project menu |
-| Thu, Sep. 17 | Measurement uncertainty, residuals, covariance, and weighted least squares | Assignment 2: residual and covariance exercises |
-| Tue, Sep. 22 | Nonlinear model fitting with SciPy; parameter identifiability and initial guesses | Assignment 2 workshop; Project 2 selection |
-| Thu, Sep. 24 | Likelihoods, goodness of fit, model comparison, and communicating fitted parameters | Assignment 2 due; project planning |
-| Tue, Sep. 29 | Bootstrap and jackknife resampling; uncertainty propagation; diagnosing fit failure | Project 2 proposal/checkpoint due; Project 2 studio |
+| Tue, Sep. 15 | Nonlinear model fitting with SciPy; parameter identifiability and initial guesses | Introduce Assignment 2 and a fitting project menu |
+| Thu, Sep. 17 | Likelihoods, goodness of fit, model comparison, and communicating fitted parameters | Assignment 2:  |
+| Tue, Sep. 22 | Bootstrap and jackknife resampling; uncertainty propagation; diagnosing fit failure  | Assignment 2 workshop; Project 2 selection |
+| Thu, Sep. 24 | Parallelizing your workflow: Introduction to W&M HPC | Assignment 2 due; project planning |
+| Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3 |
 | Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 2 repository due |
 
 **Assignment 2 plan:** A guided notebook that moves from data inspection to visualization, model fitting, residual analysis, covariance interpretation, and one resampling-based uncertainty estimate. Students should compare at least two reasonable modeling choices and explain what the comparison does and does not establish.
@@ -55,8 +55,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Oct. 6 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduce Assignment 3 and numerical project options |
-| Thu, Oct. 8 (Fall Break) | Stability, step-size control, conserved quantities, and particle/trajectory integration | Assignment 3: ODE and stability exercises |
+| Tue, Oct. 6 | Stability, step-size control, conserved quantities, and particle/trajectory integration  | Assignment 3: ODE and stability exercises |
+| Thu, Oct. 8 | No lecture (Fall Break) |  |
 | Tue, Oct. 13 | Finite differences for boundary-value problems and PDEs; grids and boundary conditions | Assignment 3 workshop |
 | Thu, Oct. 15 | Linear algebra and numerical eigensystems; conditioning and physical interpretation | Assignment 3 due; project planning |
 | Tue, Oct. 20 | FFTs and spectral analysis; resolution, aliasing, and discretization choices | Project 3 proposal/checkpoint due; Project 3 studio |
