@@ -24,9 +24,9 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | --- | --- | --- |
 | Thu, Aug. 27 | [Course orientation and computational research workflows](./lectures/lecture01_8_27_26_workflows.ipynb) |  |
 | Tue, Sep. 1 | [Command line, Python environments, notebooks/scripts, and Git basics](./lectures/lecture02_9_1_26_shell_python_git.ipynb) | Assignment 1: shell, Python, project-organization exercises |
-| Thu, Sep. 3 | [NumPy arrays, SciPy routines, Matplotlib, and pandas](./lectures/lecture03_9_3_26_numpy_scipy_matplotlib_pandas.ipynb) | Assignment 1: NumPy, SciPy, pandas, and plotting exercises |
-| Tue, Sep. 8 | More applications and examples of research computing | Assignment 1: Applications |
-| Thu, Sep. 10 | Introduction and Preparation for Unit 2 | Assignment 1 due |
+| Thu, Sep. 3 | [NumPy arrays, Matplotlib, and pandas](./lectures/lecture03_9_3_26_numpy_scipy_matplotlib_pandas.ipynb) | Assignment 1: NumPy, pandas, and plotting exercises |
+| Tue, Sep. 8 | [SciPy fitting: measurement uncertainty, residuals, covariance, and least squares fitting](./lectures/lecture04_9_8_26_scipy_fitting_uncertainty.ipynb) | Assignment 1: SciPy exercises | 
+| Thu, Sep. 10 | TBD | Assignment 1 due |
 
 **Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
 
@@ -38,12 +38,12 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Sep. 15 | Data ingestion, cleaning, exploratory visualization, and honest plotting | Introduce Assignment 2 and a fitting project menu |
+| Tue, Sep. 15 |  | Introduce Assignment 2 and a fitting project menu |
 | Thu, Sep. 17 | Measurement uncertainty, residuals, covariance, and weighted least squares | Assignment 2: residual and covariance exercises |
 | Tue, Sep. 22 | Nonlinear model fitting with SciPy; parameter identifiability and initial guesses | Assignment 2 workshop; Project 2 selection |
 | Thu, Sep. 24 | Likelihoods, goodness of fit, model comparison, and communicating fitted parameters | Assignment 2 due; project planning |
 | Tue, Sep. 29 | Bootstrap and jackknife resampling; uncertainty propagation; diagnosing fit failure | Project 2 proposal/checkpoint due; Project 2 studio |
-| Thu, Oct. 1 | Fit review; interpreting results and limitations; short project presentations | Project 2 repository/report due |
+| Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 2 repository due |
 
 **Assignment 2 plan:** A guided notebook that moves from data inspection to visualization, model fitting, residual analysis, covariance interpretation, and one resampling-based uncertainty estimate. Students should compare at least two reasonable modeling choices and explain what the comparison does and does not establish.
 
