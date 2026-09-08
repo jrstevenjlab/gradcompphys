@@ -25,12 +25,10 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Thu, Aug. 27 | [Course orientation and computational research workflows](./lectures/lecture01_8_27_26_workflows.ipynb) |  |
 | Tue, Sep. 1 | [Command line, Python environments, notebooks/scripts, and Git basics](./lectures/lecture02_9_1_26_shell_python_git.ipynb) | Assignment 1: shell, Python, project-organization exercises |
 | Thu, Sep. 3 | [NumPy arrays, Matplotlib, and pandas](./lectures/lecture03_9_3_26_numpy_scipy_matplotlib_pandas.ipynb) | Assignment 1: NumPy, pandas, and plotting exercises |
-| Tue, Sep. 8 | [SciPy fitting: measurement uncertainty, residuals, covariance, and least squares fitting](./lectures/lecture04_9_8_26_scipy_fitting_uncertainty.ipynb) | Assignment 1: SciPy exercises | 
-| Thu, Sep. 10 | [Fitting failure modes lab: false minima, constraints, and underconstrained models](./lectures/lecture05_9_10_26_fit_failure_modes_lab.ipynb) | Assignment 1 due |
+| Tue, Sep. 8 | [Least squares fitting in Scipy: measurement uncertainty, residuals, covariance](./lectures/lecture04_9_8_26_scipy_fitting_uncertainty.ipynb) | Assignment 1: SciPy exercises | 
+| Thu, Sep. 10 | [Fitting failure modes: false minima, constraints, and underconstrained models](./lectures/lecture05_9_10_26_fit_failure_modes_lab.ipynb) | Assignment 1 due |
 
-**Assignment 1 plan:** A guided notebook that asks students to inspect a small dataset or starter calculation, organize a repository, use shell and Git operations, load and transform data with Python, create a figure, and document how to rerun the work.
-
-<!-- 
+**Assignment 1:**  Reproducible Neutrino Workflow [assignment1-template](https://github.com/WM-PHYS690-Fall2026/assignment1-template)
 
 ## Unit 2: Data Analysis, Model Fitting, and Uncertainty
 
@@ -38,13 +36,14 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Sep. 15 | Nonlinear model fitting with SciPy; parameter identifiability and initial guesses | Introduce Assignment 2 and a fitting project menu |
-| Thu, Sep. 17 | Likelihoods, goodness of fit, model comparison, and communicating fitted parameters | Assignment 2:  |
-| Tue, Sep. 22 | Bootstrap and jackknife resampling; uncertainty propagation; diagnosing fit failure  | Assignment 2 workshop; Project 2 selection |
-| Thu, Sep. 24 | Parallelizing your workflow: Introduction to W&M HPC | Assignment 2 due; project planning |
-| Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3 |
+| Tue, Sep. 15 | Likelihoods, goodness of fit, model comparison | Introduce Assignment 2 |
+| Thu, Sep. 17 | Bootstrap and jackknife resampling; uncertainty propagation |  |
+| Tue, Sep. 22 | Parallelizing your workflow: Introduction to HPC | Introduce Project 1 |
+| Thu, Sep. 24 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3; Assignment 2 due; |
+| Tue, Sep. 29 | Stability, step-size control, conserved quantities, and particle/trajectory integration |  |
 | Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 2 repository due |
 
+<!-- 
 **Assignment 2 plan:** A guided notebook that moves from data inspection to visualization, model fitting, residual analysis, covariance interpretation, and one resampling-based uncertainty estimate. Students should compare at least two reasonable modeling choices and explain what the comparison does and does not establish.
 
 **Project 2 plan:** An open-ended data-analysis project such as model fitting and parameter extraction, histogram analysis and background estimation, image or spectral analysis, or an instrument-response workflow. The required emphasis is on a defensible analysis chain and uncertainty statement, not on using the most complicated model.
@@ -55,10 +54,10 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Oct. 6 | Stability, step-size control, conserved quantities, and particle/trajectory integration  | Assignment 3: ODE and stability exercises |
+| Tue, Oct. 6 | Finite differences for boundary-value problems and PDEs; grids and boundary conditions | Assignment 3: ODE and stability exercises |
 | Thu, Oct. 8 | No lecture (Fall Break) |  |
-| Tue, Oct. 13 | Finite differences for boundary-value problems and PDEs; grids and boundary conditions | Assignment 3 workshop |
-| Thu, Oct. 15 | Linear algebra and numerical eigensystems; conditioning and physical interpretation | Assignment 3 due; project planning |
+| Tue, Oct. 13 | No lecture (DNP Meeting) |  |
+| Thu, Oct. 15 | Linear algebra and numerical eigensystems; conditioning and physical interpretation | Assignment 3 due |
 | Tue, Oct. 20 | FFTs and spectral analysis; resolution, aliasing, and discretization choices | Project 3 proposal/checkpoint due; Project 3 studio |
 | Thu, Oct. 22 | Verification versus validation; convergence studies; stability and error reporting | Project 3 repository/report due; short demonstrations |
 
@@ -73,8 +72,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
 | Tue, Oct. 27 | Pseudorandom numbers, sampling, Monte Carlo integration, and error scaling | Introduce Assignment 4 and inference project options |
-| Thu, Oct. 29 | Stochastic simulation and Monte Carlo uncertainty propagation | Assignment 4: sampling and propagation exercises |
-| Tue, Nov. 3 | Likelihoods and priors; posterior distributions; credible intervals and posterior visualization | Assignment 4 workshop |
+| Thu, Oct. 29 | Stochastic simulation and Monte Carlo uncertainty propagation... Likelihoods and priors; posterior distributions; credible intervals and posterior visualization | Assignment 4: sampling and propagation exercises |
+| Tue, Nov. 3 | No lecture (Election Day) | Assignment 4 workshop |
 | Thu, Nov. 5 | MCMC algorithms, autocorrelation, effective sample size, and convergence diagnostics | Assignment 4 due; project planning |
 | Tue, Nov. 10 | Bayesian model checking, sensitivity to priors, and communicating posterior results | Project 4 proposal/checkpoint due; Project 4 studio |
 | Thu, Nov. 12 | Comparing stochastic methods; failure modes; short project presentations | Project 4 repository/report due |
@@ -92,7 +91,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Nov. 17 | Capstone kickoff; choosing a tractable question from the project menu; scope and risk assessment | Project idea and initial scope due |
 | Thu, Nov. 19 | Proposal design: physics question, method, data/model, validation, and uncertainty plan | Capstone proposal due; proposal feedback |
 | Tue, Nov. 24 | Computational design review; validation tests; uncertainty and reproducibility planning | Progress checkpoint and work session |
-| Thu, Nov. 26 | Thanksgiving break | No regular class; independent project work |
+| Thu, Nov. 26 | No lecture (Thanksgiving break) | No regular class; independent project work |
 | Tue, Dec. 1 | Scientific figures, documentation, interpretation, and repository cleanup | Draft results and figures for peer review |
 | Thu, Dec. 3 | Presentation structure, rehearsal, peer feedback, and final submission checklist | Presentation rehearsal; final work plan |
 

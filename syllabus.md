@@ -68,6 +68,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises.
 The semester is organized into five three-week units.  Unit 5 is reserved for the capstone, which continues through finals week.  See the [lecture-by-lecture schedule](./schedule.md) for the complete calendar. There is no regular class meeting on the following dates:
 - GlueX Collaboration Meeting, Thu, Oct. 1
 - Fall Break, Thu, Oct. 8
+- DNP Meeting, Tue, Oct. 13
 - Election Day, Thu, Nov. 3
 - Thanksgiving, Thu, Nov. 26
 
