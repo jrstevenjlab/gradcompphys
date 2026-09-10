@@ -26,7 +26,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Sep. 1 | [Command line, Python environments, notebooks/scripts, and Git basics](./lectures/lecture02_9_1_26_shell_python_git.ipynb) | Assignment 1: shell, Python, project-organization exercises |
 | Thu, Sep. 3 | [NumPy arrays, Matplotlib, and pandas](./lectures/lecture03_9_3_26_numpy_scipy_matplotlib_pandas.ipynb) | Assignment 1: NumPy, pandas, and plotting exercises |
 | Tue, Sep. 8 | [Least squares fitting in Scipy: measurement uncertainty, residuals, covariance](./lectures/lecture04_9_8_26_scipy_fitting_uncertainty.ipynb) | Assignment 1: SciPy exercises | 
-| Thu, Sep. 10 | [Fitting failure modes: false minima, constraints, and underconstrained models](./lectures/lecture05_9_10_26_fit_failure_modes_lab.ipynb) | Assignment 1 due |
+| Thu, Sep. 10 | [Fitting failure modes lab: label switching, local minima, constraints, and underconstrained models](./lectures/lecture05_9_10_26_fit_failure_modes_lab.ipynb) | Assignment 1 due |
 
 **Assignment 1:**  Reproducible Neutrino Workflow [assignment1-template](https://github.com/WM-PHYS690-Fall2026/assignment1-template)
 
