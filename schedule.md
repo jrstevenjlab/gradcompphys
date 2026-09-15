@@ -36,11 +36,11 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Sep. 15 | Likelihoods, goodness of fit, model comparison | Introduce Assignment 2 |
-| Thu, Sep. 17 | Bootstrap and jackknife resampling; uncertainty propagation |  |
-| Tue, Sep. 22 | Parallelizing your workflow: Introduction to HPC | Introduce Project 1 |
-| Thu, Sep. 24 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3; Assignment 2 due; |
-| Tue, Sep. 29 | Stability, step-size control, conserved quantities, and particle/trajectory integration |  |
+| Tue, Sep. 15 | [What's under the hood? Gradient descent, minimizers, and analytic derivatives](./lectures/lecture06_9_15_26_minimizers_gradients_derivatives.ipynb) | Introduce Assignment 2 |
+| Thu, Sep. 17 | [Applied statistics in fitting: goodness of fit, model comparison, and likelihood fits](./lectures/lecture07_9_17_26_goodness_likelihood_model_comparison.ipynb) |  |
+| Tue, Sep. 22 | [Bootstrap and jackknife resampling; uncertainty propagation](./lectures/lecture08_9_22_26_bootstrap_jackknife_uncertainty.ipynb) | Introduce Project 1 |
+| Thu, Sep. 24 | Parallelizing your workflow: Introduction to HPC | Assignment 2 due |
+| Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3 |
 | Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 2 repository due |
 
 <!-- 
@@ -51,6 +51,8 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 ## Unit 3: Numerical Methods for Physical Systems
 
 **Unit goal:** Implement numerical methods for physical systems and assess convergence, stability, boundary conditions, and discretization error.
+
+Stability, step-size control, conserved quantities, and particle/trajectory integration
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
