@@ -8,7 +8,7 @@
 | Weeks | Dates | Focus | Planned deliverables |
 | --- | --- | --- | --- |
 | 1-3 | Aug. 27-Sep. 10 | Unit 1: Research Computing Foundations | Assignment 1 |
-| 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Notebook Assignment 2; Unit 2 Project |
+| 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Assignment 2; Project 1 |
 | 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit 3 Project |
 | 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit 4 Project |
 | 13-15 | Nov. 17-Dec. 3 | Unit 5: Capstone Project | Capstone proposal, progress review, and presentation rehearsal |
@@ -36,18 +36,18 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 | Date | Lecture and working focus | Milestone |
 | --- | --- | --- |
-| Tue, Sep. 15 | [What's under the hood? Gradient descent, minimizers, and analytic derivatives](./lectures/lecture06_9_15_26_minimizers_gradients_derivatives.ipynb) | Introduce Assignment 2 |
-| Thu, Sep. 17 | [Applied statistics in fitting: goodness of fit, model comparison, and likelihood fits](./lectures/lecture07_9_17_26_goodness_likelihood_model_comparison.ipynb) |  |
-| Tue, Sep. 22 | [Bootstrap and jackknife resampling; uncertainty propagation](./lectures/lecture08_9_22_26_bootstrap_jackknife_uncertainty.ipynb) | Introduce Project 1 |
+| Tue, Sep. 15 | [What's under the hood? Gradient descent, minimizers, and analytic derivatives](./lectures/lecture06_9_15_26_minimizers_gradients_derivatives.ipynb) |  |
+| Thu, Sep. 17 | [Goodness of fit, model comparison, and hypothesis testing](./lectures/lecture07_9_17_26_goodness_model_comparison_hypothesis_testing.ipynb) | Introduce [Assignment 2](https://github.com/WM-PHYS690-Fall2026/assignment2-template) |
+| Tue, Sep. 22 | [Likelihood fits, bootstrap and jackknife resampling; uncertainty propagation](./lectures/lecture08_9_22_26_bootstrap_jackknife_uncertainty.ipynb) | Introduce [Project 1](https://github.com/WM-PHYS690-Fall2026/project1-template) |
 | Thu, Sep. 24 | Parallelizing your workflow: Introduction to HPC | Assignment 2 due |
-| Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error | Introduction to Unit 3 |
-| Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 2 repository due |
+| Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error |  |
+| Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 1 repository/report due |
 
-<!-- 
-**Assignment 2 plan:** A guided notebook that moves from data inspection to visualization, model fitting, residual analysis, covariance interpretation, and one resampling-based uncertainty estimate. Students should compare at least two reasonable modeling choices and explain what the comparison does and does not establish.
+**Assignment 2:** Fitting Pantheon Supernova [assignment2-template](https://github.com/WM-PHYS690-Fall2026/assignment2-template)
 
-**Project 2 plan:** An open-ended data-analysis project such as model fitting and parameter extraction, histogram analysis and background estimation, image or spectral analysis, or an instrument-response workflow. The required emphasis is on a defensible analysis chain and uncertainty statement, not on using the most complicated model.
+**Project 1:** Fitting Bottomonium from CMS[project1-template](https://github.com/WM-PHYS690-Fall2026/project1-template)
 
+<!--
 ## Unit 3: Numerical Methods for Physical Systems
 
 **Unit goal:** Implement numerical methods for physical systems and assess convergence, stability, boundary conditions, and discretization error.

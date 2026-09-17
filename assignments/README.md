@@ -11,7 +11,7 @@ For each assignment, you will create your own private repository from the templa
 | Assignment | Template repository | Release | Due | Preparation for the unit project |
 | --- | --- | --- | --- | --- |
 | Assignment 1: Reproducible Neutrino Workflow | [assignment1-template](https://github.com/WM-PHYS690-Fall2026/assignment1-template) | Thu, Aug. 27 | Thu, Sep. 10 | Establishes shell, Git, Python, data-loading, plotting, and documentation habits. |
-| Assignment 2: Fitting and Uncertainty | Forthcoming | Tue, Sep. 15 | Thu, Sep. 24 | Provides practice with model fitting, residuals, covariance, and resampling. |
+| Assignment 2: Fitting and Uncertainty | [assignment2-template](https://github.com/WM-PHYS690-Fall2026/assignment2-template) | Thu, Sep. 17 | Thu, Sep. 24 | Provides practice with model fitting, residuals, covariance, and resampling. |
 | Assignment 3: Numerical Methods and Error | Forthcoming | Tue, Oct. 6 | Thu, Oct. 15 | Provides practice with numerical integration, stability, boundary conditions, eigensystems, FFTs, and convergence. |
 | Assignment 4: Sampling and Inference | Forthcoming | Tue, Oct. 27 | Thu, Nov. 5 | Provides practice with Monte Carlo estimates, uncertainty propagation, MCMC, posterior visualization, and diagnostics. |
 
