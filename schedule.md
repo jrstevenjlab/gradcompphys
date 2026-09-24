@@ -39,7 +39,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Sep. 15 | [What's under the hood? Gradient descent, minimizers, and analytic derivatives](./lectures/lecture06_9_15_26_minimizers_gradients_derivatives.ipynb) |  |
 | Thu, Sep. 17 | [Goodness of fit, model comparison, and hypothesis testing](./lectures/lecture07_9_17_26_goodness_model_comparison_hypothesis_testing.ipynb) | Introduce [Assignment 2](https://github.com/WM-PHYS690-Fall2026/assignment2-template) |
 | Tue, Sep. 22 | [Likelihood fits, bootstrap and jackknife resampling; uncertainty propagation](./lectures/lecture08_9_22_26_bootstrap_jackknife_uncertainty.ipynb) | Introduce [Project 1](https://github.com/WM-PHYS690-Fall2026/project1-template) |
-| Thu, Sep. 24 | [From fit result to scientific claim](./lectures/lecture09_9_24_26_fit_result_toolkit.ipynb); HPC workflow and resources | Assignment 2 due |
+| Thu, Sep. 24 | [HPC workflow and resources](./lectures/lecture09_9_24_26_wm_hpc.ipynb) | Assignment 2 due |
 | Tue, Sep. 29 | Initial-value ODEs; Euler, midpoint, and Runge-Kutta methods; local and global error |  |
 | Thu, Oct. 1 | No lecture (GlueX Collaboration Meeting) | Project 1 repository due |
 
