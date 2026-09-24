@@ -21,6 +21,32 @@ The W&M research computing environment gives students, faculty, and staff access
 - You work from the command line rather than from a normal desktop-style interface.
 - Long or computationally heavy work is typically submitted as a batch job rather than run directly in an interactive login session.
 - W&M uses `Slurm` as the batch scheduler, so commands such as `sbatch`, `squeue`, and `scancel` are part of the normal workflow.
+- On SciClone, some cluster commands and software modules may not be visible until the SciClone shell environment has been initialized.
+
+## SciClone Shell Environment And Modules
+
+If Slurm commands such as `sbatch` or `squeue` are not available after logging in to SciClone, initialize the cluster shell environment before activating a project-specific Python virtual environment:
+
+```bash
+source /usr/local/etc/sciclone.bashrc
+```
+
+For users working in a `tcsh`/`csh` shell, the corresponding setup file is:
+
+```csh
+source /usr/local/etc/sciclone.cshrc
+```
+
+After sourcing the SciClone environment, check that Slurm and the module system are available:
+
+```bash
+which sbatch
+squeue -u $USER
+module avail
+module list
+```
+
+Then activate your project `.venv` if your analysis needs Python packages installed there. The virtual environment controls Python packages; the SciClone environment controls cluster-level commands and software modules.
 
 ## Typical Workflow
 
@@ -53,5 +79,6 @@ The W&M research computing environment gives students, faculty, and staff access
 - [Request an HPC account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/)
 - [Using the W&M/VIMS HPC batch clusters](https://www.wm.edu/offices/it/services/researchcomputing/using/)
 - [Logging in to HPC clusters](https://www.wm.edu/offices/it/services/researchcomputing/using/connecting/)
+- [Environment modules](https://www.wm.edu/offices/it/services/researchcomputing/using/modules/)
 - [Running jobs with Slurm](https://www.wm.edu/offices/it/services/researchcomputing/using/running_jobs_slurm/)
 - [W&M HPC tutorials](https://www.wm.edu/offices/it/services/researchcomputing/using/tutorials/)

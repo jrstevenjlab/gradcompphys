@@ -3,3 +3,6 @@ scratch/
 projects/
 assignments/_instructor_only/
 resources/_instructor_only/
+slurm_logs/
+slurm_outputs/
+*__pycache__/
