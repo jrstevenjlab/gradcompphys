@@ -79,6 +79,7 @@ Then activate your project `.venv` if your analysis needs Python packages instal
 - [Request an HPC account](https://www.wm.edu/offices/it/services/researchcomputing/acctreq/)
 - [Using the W&M/VIMS HPC batch clusters](https://www.wm.edu/offices/it/services/researchcomputing/using/)
 - [Logging in to HPC clusters](https://www.wm.edu/offices/it/services/researchcomputing/using/connecting/)
+- [Simplifying login to HPC with SSH keys](https://www.wm.edu/offices/it/services/researchcomputing/using/connecting/bastion/)
 - [Environment modules](https://www.wm.edu/offices/it/services/researchcomputing/using/modules/)
 - [Running jobs with Slurm](https://www.wm.edu/offices/it/services/researchcomputing/using/running_jobs_slurm/)
 - [W&M HPC tutorials](https://www.wm.edu/offices/it/services/researchcomputing/using/tutorials/)
