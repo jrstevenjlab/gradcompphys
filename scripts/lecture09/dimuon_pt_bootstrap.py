@@ -16,12 +16,6 @@ from time import perf_counter
 
 import numpy as np
 import pandas as pd
-
-os.environ.setdefault("MPLCONFIGDIR", f"/tmp/matplotlib-{os.environ.get('USER', 'user')}")
-import matplotlib
-
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
 from scipy.optimize import minimize
 from scipy.special import erf
 
@@ -198,6 +192,12 @@ def bootstrap_fit_rows(mass_values, mass_range, n_bootstrap, rng, pt_min, pt_max
 
 def save_mass_fit_plot(mass_values, fit_parameters, mass_range, pt_min, pt_max, output_path, n_bins=50):
     """Save a diagnostic mass plot with histogram data and fitted model components."""
+    os.environ.setdefault("MPLCONFIGDIR", f"/tmp/matplotlib-{os.environ.get('USER', 'user')}")
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
     lower, upper = mass_range
     bin_edges = np.linspace(lower, upper, n_bins + 1)
     bin_width = bin_edges[1] - bin_edges[0]
