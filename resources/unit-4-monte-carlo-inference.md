@@ -17,8 +17,6 @@ This unit uses one damped Ramsey experiment to connect Monte Carlo integration, 
 
 ## Uncertainty Propagation and Simulation
 
-- [JCGM 101:2008, *Propagation of distributions using a Monte Carlo method*](https://www.bipm.org/documents/20126/2071204/JCGM_101_2008_E.pdf)  
-  Open international guide underlying the propagation workflow in Lecture 16.
 - [SciPy multivariate normal documentation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.multivariate_normal.html)  
   Reference for correlated parameter models and covariance matrices.
 - [NumPy binomial sampling documentation](https://numpy.org/doc/stable/reference/random/generated/numpy.random.Generator.binomial.html)  
