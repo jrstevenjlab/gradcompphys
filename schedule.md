@@ -75,7 +75,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Oct. 27 | [Monte Carlo sampling and integration; pseudorandom generators, error scaling, and variance reduction](./lectures/lecture15_10_27_26_monte_carlo.ipynb) |  |
 | Thu, Oct. 29 | [Stochastic Ramsey experiments and Monte Carlo uncertainty propagation](./lectures/lecture16_10_29_26_stochastic_uncertainty.ipynb) |  |
 | Tue, Nov. 3 | No lecture (Election Day) |  |
-| Thu, Nov. 5 | [Likelihoods, priors, grid posteriors, marginalization, credible intervals, and MAP estimation](./lectures/lecture17_11_5_26_bayesian_inference.ipynb) | Assignment 4 available |
+| Thu, Nov. 5 | [Bayesian inference on a grid: binomial likelihood, priors, grid-cell probabilities, marginalization, confidence intervals, and comparison with weighted chi-square](./lectures/lecture17_11_5_26_bayesian_inference.ipynb) | Assignment 4 available |
 | Tue, Nov. 10 | [Metropolis-Hastings MCMC, autocorrelation, effective sample size, and convergence diagnostics](./lectures/lecture18_11_10_26_mcmc_diagnostics.ipynb) |  |
 | Thu, Nov. 12 | [Posterior predictive checks, prior sensitivity, scientific reporting, and normalizing flows](./lectures/lecture19_11_12_26_model_checking_flows.ipynb) | introduce Project 4 |
 
