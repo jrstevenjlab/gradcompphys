@@ -76,14 +76,14 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Thu, Oct. 29 | [Stochastic Ramsey experiments and Monte Carlo uncertainty propagation](./lectures/lecture16_10_29_26_stochastic_uncertainty.ipynb) |  |
 | Tue, Nov. 3 | No lecture (Election Day) |  |
 | Thu, Nov. 5 | [Bayesian inference on a grid: binomial likelihood, priors, probabilities, marginalization, confidence intervals](./lectures/lecture17_11_5_26_bayesian_inference.ipynb) | Assignment 4 available |
-| Tue, Nov. 10 | [Metropolis-Hastings MCMC, autocorrelation, effective sample size, and convergence diagnostics](./lectures/lecture18_11_10_26_mcmc_diagnostics.ipynb) |  |
-| Thu, Nov. 12 | [Posterior predictive checks, prior sensitivity, scientific reporting, and normalizing flows](./lectures/lecture19_11_12_26_model_checking_flows.ipynb) | introduce Project 4 |
+| Tue, Nov. 10 | [Metropolis-Hastings MCMC and using `emcee`](./lectures/lecture18_11_10_26_mcmc.ipynb) |  |
+| Thu, Nov. 12 | [Posterior predictive checks, prior sensitivity, scientific reporting, and normalizing flows](./lectures/lecture19_11_12_26_model_checking_flows.ipynb) |  |
 
 
 **Assignment 4:** Simulation of cosmic-ray trigger design [assignment4-template](https://github.com/WM-PHYS690-Fall2026/assignment4-template).  Due: Friday, November 13
 
 <!--
-**Project 4 plan:** An open-ended Monte Carlo or inference project such as Monte Carlo uncertainty propagation or Bayesian inference for a physics model. The project should state the sampling or inference target, justify the likelihood and any priors, show posterior or output diagnostics, and distinguish numerical sampling uncertainty from physical or measurement uncertainty.
+**Project 2 plan:** An open-ended Monte Carlo or inference project such as Monte Carlo uncertainty propagation or Bayesian inference for a physics model. The project should state the sampling or inference target, justify the likelihood and any priors, show posterior or output diagnostics, and distinguish numerical sampling uncertainty from physical or measurement uncertainty.
 
 ## Unit 5: Capstone Project
 
