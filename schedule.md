@@ -10,9 +10,9 @@
 | 1-3 | Aug. 27-Sep. 10 | Unit 1: Research Computing Foundations | Assignment 1 |
 | 4-6 | Sep. 15-Oct. 1 | Unit 2: Data Analysis, Model Fitting, and Uncertainty | Assignment 2; Project 1 |
 | 7-9 | Oct. 6-22 | Unit 3: Numerical Methods for Physical Systems | Notebook Assignment 3; Unit 3 Project |
-| 10-12 | Oct. 27-Nov. 12 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Unit 4 Project |
-| 13-15 | Nov. 17-Dec. 3 | Unit 5: Capstone Project | Capstone proposal, progress review, and presentation rehearsal |
-| Finals period | Dec. 7-10 | Capstone completion | Final repository/report and presentation |
+| 10-13 | Oct. 27-Nov. 19 | Unit 4: Monte Carlo, Stochastic Methods, and Inference | Notebook Assignment 4; Project 2 |
+| 14-15 | Nov. 24-Dec. 3 | Unit 5: Capstone Project Studio | Student-selected final project and presentation |
+| Finals period | Dec. 7-16 | Capstone completion | Final repository/report and presentations |
 
 The four unit assignments are primarily Jupyter notebooks with guided exercises and short written interpretations. The four unit projects are more open-ended and will be small enough to complete in one unit while giving students practice with a complete computational workflow.
 
@@ -77,27 +77,29 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Nov. 3 | No lecture (Election Day) |  |
 | Thu, Nov. 5 | [Bayesian inference on a grid: binomial likelihood, priors, probabilities, marginalization, confidence intervals](./lectures/lecture17_11_5_26_bayesian_inference.ipynb) | Assignment 4 available |
 | Tue, Nov. 10 | [Metropolis-Hastings MCMC and using `emcee`](./lectures/lecture18_11_10_26_mcmc.ipynb) |  |
-| Thu, Nov. 12 | [Posterior predictive checks, prior sensitivity, scientific reporting, and normalizing flows](./lectures/lecture19_11_12_26_model_checking_flows.ipynb) |  |
+| Thu, Nov. 12 | No lecture (Assignment 4 work time) | Assignment 4 due Friday, Nov. 13 |
+| Tue, Nov. 17 | [MCMC diagnostics with the production `emcee` sampler](./lectures/lecture19_11_17_26_mcmc_diagnostics.ipynb) |  |
+| Thu, Nov. 19 | [Normalizing flows, generative AI, and final-project planning](./lectures/lecture20_11_19_26_normalizing_flows.ipynb) | Final formal lecture; completes Unit 4 |
 
 
 **Assignment 4:** Simulation of cosmic-ray trigger design [assignment4-template](https://github.com/WM-PHYS690-Fall2026/assignment4-template).  Due: Friday, November 13
 
-<!--
-**Project 2 plan:** An open-ended Monte Carlo or inference project such as Monte Carlo uncertainty propagation or Bayesian inference for a physics model. The project should state the sampling or inference target, justify the likelihood and any priors, show posterior or output diagnostics, and distinguish numerical sampling uncertainty from physical or measurement uncertainty.
+**Project 2:** Bayesian constraints on dark energy using Pantheon+ supernova data, comparing constant and time-varying dark-energy models [project2-template](https://github.com/WM-PHYS690-Fall2026/project2-template).
 
-## Unit 5: Capstone Project
+## Unit 5: Capstone Project Studio
 
-**Unit goal:** Integrate the course methods into a focused, research-style computational project.
+**Unit goal:** Apply the course toolkit to a focused, student-selected computational physics question, with a documented validation and uncertainty plan.
 
-| Date | Lecture and working focus | Milestone |
+Lecture 20 on Nov. 19 is the final formal lecture. Remaining class meetings are project work sessions and consultations.
+
+| Date | Project focus | Milestone |
 | --- | --- | --- |
-| Tue, Nov. 17 | Capstone kickoff; choosing a tractable question from the project menu; scope and risk assessment | Project idea and initial scope due |
-| Thu, Nov. 19 | Proposal design: physics question, method, data/model, validation, and uncertainty plan | Capstone proposal due; proposal feedback |
-| Tue, Nov. 24 | Computational design review; validation tests; uncertainty and reproducibility planning | Progress checkpoint and work session |
-| Thu, Nov. 26 | No lecture (Thanksgiving break) | No regular class; independent project work |
-| Tue, Dec. 1 | Scientific figures, documentation, interpretation, and repository cleanup | Draft results and figures for peer review |
-| Thu, Dec. 3 | Presentation structure, rehearsal, peer feedback, and final submission checklist | Presentation rehearsal; final work plan |
+| Tue, Nov. 24 | No lecture (Project planning: define the question, minimum complete result, and computational risks) | Submit one-page project scope and validation plan |
+| Thu, Nov. 26 | No lecture (Thanksgiving break) |  |
+| Tue, Dec. 1 | No lecture (Final project work time) |  |
+| Thu, Dec. 3 | No lecture (Final project work time) |  |
 
+<!--
 ### Finals Period: December 7-16
 
 - **Mon, Dec. 7:** Final project work period and instructor questions.
@@ -106,7 +108,6 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 - **Wed, Dec. 16:** Final revisions and reflection due, if needed after presentation feedback.
 
 The capstone uses the [project template](./projects/project-template.md) and [project rubric](./projects/rubrics.md). The final submission should include the physics question, computational method, data or model description, validation strategy, uncertainty analysis, figures, reproducibility instructions, results, and reflection.
-
 -->
 
 ## Assignment and Project Rhythm
@@ -117,4 +118,4 @@ Each three-week unit follows the same rhythm:
 2. **Week 2:** Work through the assignment, discuss failure modes, and submit the notebook assignment on Thursday.
 3. **Week 3:** Submit the project checkpoint on Tuesday, then use class time for project work, code review, validation, and concise demonstrations before the Thursday project submission.
 
-The notebook assignments are intentionally scaffolded. The projects ask students to make more of the scientific and computational decisions themselves, while still requiring the same standards of validation, uncertainty analysis, documentation, and reproducibility.
+The notebook assignments are intentionally scaffolded. The projects ask students to make more of the scientific and computational decisions themselves, while still requiring the same standards of validation, uncertainty analysis, documentation, and reproducibility. Unit 5 is a capstone project studio rather than another three-week instructional unit.
