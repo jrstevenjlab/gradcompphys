@@ -84,13 +84,13 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 
 **Assignment 4:** Simulation of cosmic-ray trigger design [assignment4-template](https://github.com/WM-PHYS690-Fall2026/assignment4-template).  Due: Friday, November 13
 
-**Project 2:** Bayesian constraints on dark energy using Pantheon+ supernova data, comparing constant and time-varying dark-energy models [project2-template](https://github.com/WM-PHYS690-Fall2026/project2-template).
+**Project 2:** Bayesian constraints on dark energy using Pantheon+ supernova data, comparing constant and time-varying dark-energy models [project2-template](https://github.com/WM-PHYS690-Fall2026/project2-template).  Due: Tuesday, December 3
 
 ## Unit 5: Capstone Project Studio
 
-**Unit goal:** Apply the course toolkit to a focused, student-selected computational physics question, with a documented validation and uncertainty plan.
+**Unit goal:** Apply the course toolkit to a focused, computational physics question in the research area of your choice.
 
-Lecture 20 on Nov. 19 is the final formal lecture. Remaining class meetings are project work sessions and consultations.
+November 19 is the final formal lecture. Remaining class meetings are project work sessions and consultations.
 
 | Date | Project focus | Milestone |
 | --- | --- | --- |
