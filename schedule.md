@@ -79,7 +79,7 @@ The four unit assignments are primarily Jupyter notebooks with guided exercises 
 | Tue, Nov. 10 | [Metropolis-Hastings MCMC and using `emcee`](./lectures/lecture18_11_10_26_mcmc.ipynb) |  |
 | Thu, Nov. 12 | No lecture (Assignment 4 work time) | Assignment 4 due Friday, Nov. 13 |
 | Tue, Nov. 17 | [MCMC diagnostics with the production `emcee` sampler](./lectures/lecture19_11_17_26_mcmc_diagnostics.ipynb) |  |
-| Thu, Nov. 19 | [Normalizing flows, generative AI, and final-project planning](./lectures/lecture20_11_19_26_normalizing_flows.ipynb) | Final formal lecture; completes Unit 4 |
+| Thu, Nov. 19 | [PyTorch flow inference for Ramsey data and final-project planning](./lectures/lecture20_11_19_26_normalizing_flows.ipynb) | Final formal lecture; completes Unit 4 |
 
 
 **Assignment 4:** Simulation of cosmic-ray trigger design [assignment4-template](https://github.com/WM-PHYS690-Fall2026/assignment4-template).  Due: Friday, November 13
