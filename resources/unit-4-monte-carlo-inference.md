@@ -2,12 +2,12 @@
 
 Related pages: [Resources Home](./README.md) | [Schedule](../schedule.md) | [Assignments](../assignments/README.md)
 
-This unit uses one damped Ramsey experiment to connect Monte Carlo integration, stochastic simulation, uncertainty propagation, Bayesian inference, MCMC diagnostics, posterior predictive checks, and normalizing flows. The resources below are open documentation, open textbooks, or openly available papers used directly in Lectures 15-19.
+This unit uses one damped Ramsey experiment to connect Monte Carlo integration, stochastic simulation, uncertainty propagation, Bayesian inference, MCMC diagnostics, posterior predictive checks, and normalizing flows. The resources below are open documentation, open textbooks, or openly available papers used directly in Lectures 15-20.
 
 ## Random Sampling and Monte Carlo
 
 - [NumPy random `Generator` documentation](https://numpy.org/doc/stable/reference/random/generator.html)  
-  Primary API reference for reproducible pseudorandom streams used in Lectures 15-19.
+  Primary API reference for reproducible pseudorandom streams used in Lectures 15-20.
 - [NumPy probability-distribution methods](https://numpy.org/doc/stable/reference/random/generator.html#distributions)  
   Reference for uniform, normal, binomial, and multivariate-normal sampling.
 - [SciPy quasi-Monte Carlo documentation](https://docs.scipy.org/doc/scipy/reference/stats.qmc.html)  
@@ -51,9 +51,9 @@ This unit uses one damped Ramsey experiment to connect Monte Carlo integration, 
 - [Gelman et al., *Bayesian Workflow*](https://arxiv.org/abs/2011.01808)  
   End-to-end framework for model building, computation, validation, sensitivity analysis, and communication.
 - [Gabry et al., *Visualization in Bayesian workflow*](https://arxiv.org/abs/1709.01449)  
-  Posterior predictive visualization and model-checking ideas used in Lecture 19.
+  Posterior predictive visualization and model-checking ideas for Bayesian project work.
 - [ArviZ posterior predictive plotting](https://python.arviz.org/en/stable/api/generated/arviz.plot_ppc.html)  
-  Production plotting reference corresponding to Lecture 19's explicit Matplotlib implementation.
+  Production plotting reference for posterior predictive project work.
 - [PyMC documentation](https://www.pymc.io/projects/docs/en/stable/)  
   Probabilistic programming, posterior sampling, predictive simulation, and diagnostics.
 
@@ -63,10 +63,12 @@ This unit uses one damped Ramsey experiment to connect Monte Carlo integration, 
   Open review of change-of-variables densities, flow architectures, training objectives, and inference applications.
 - [Rezende and Mohamed, *Variational Inference with Normalizing Flows*](https://proceedings.mlr.press/v37/rezende15.html)  
   Foundational open paper connecting normalizing flows to optimized posterior approximations.
-- [Pyro transform documentation](https://docs.pyro.ai/en/stable/distributions.html#transforms)  
-  Examples of invertible transforms and transformed distributions in a probabilistic-programming library.
-- [`nflows` open-source library](https://github.com/bayesiains/nflows)  
-  Reference implementations of common flow layers; useful beyond the affine demonstration in Lecture 19.
+- [PyTorch basics: tensors, autograd, and optimization](https://docs.pytorch.org/tutorials/beginner/basics/intro.html)  
+  Production tensor and automatic-differentiation tools used for the Ramsey likelihood in Lecture 20.
+- [Zuko: normalizing flows in PyTorch](https://zuko.readthedocs.io/stable/) and [direct training from an unnormalized target](https://zuko.readthedocs.io/stable/tutorials/reverse_kl.html)  
+  Ready-made neural spline flow and variational objective used in Lecture 20.
+- [Zou et al., *Simulation-Based Quantum System Inference with Neural Posterior Estimation*](https://arxiv.org/abs/2609.34995)  
+  Preprint on reusable posterior estimators trained across simulated quantum measurement records, extending beyond the single-dataset flow in Lecture 20.
 
 ## Shared Physical Example
 
@@ -74,6 +76,9 @@ This unit uses one damped Ramsey experiment to connect Monte Carlo integration, 
   Open documentation for a Ramsey experiment and damped-oscillation analysis.
 - [Degen, Reinhard, and Cappellaro, *Quantum sensing*](https://arxiv.org/abs/1611.02427)  
   Open review connecting coherence measurements such as Ramsey spectroscopy to quantum sensing.
+
+- [McMichael, Dushenko, and Blakley, *Sequential Bayesian experiment design for adaptive Ramsey sequence measurements*](https://arxiv.org/abs/2105.02327)  
+  Real Ramsey measurement setting where efficient Bayesian posterior updates inform the next experimental delay; this is not a flow method.
 
 ## Suggested Unit Practice
 
